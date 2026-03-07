@@ -1,0 +1,36 @@
+<div class="container text-center mt-4">
+  <h1>{{ nombre }}</h1>
+
+  <img
+    [src]="imagen"
+    [alt]="nombre"
+    width="300"
+    class="mt-4 mb-3"
+    style="cursor: pointer"
+    [routerLink]="getImagenRouterLink()"
+  />
+
+  <h5 class="mt-4">{{ descripcion }}</h5>
+
+  <div class="row text-center mt-4 mb-5">
+    <div class="col-6 text-end">
+      <button
+        class="btn btn-warning"
+        *ngIf="nombre !== 'Bulbasaur'"
+        [routerLink]="getBotonRetrocederLink()"
+      >
+        Retroceder
+      </button>
+    </div>
+
+    <div class="col-6 text-start">
+      <button
+        class="btn btn-success"
+        *ngIf="nombre !== 'Venusaur'"
+        [routerLink]="getBotonEvolucionLink()"
+      >
+        Evolucionar
+      </button>
+    </div>
+  </div>
+</div>
