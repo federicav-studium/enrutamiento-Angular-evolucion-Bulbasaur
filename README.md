@@ -1,59 +1,39 @@
-# EvolucionPokemon
+# 🍃 Navegación Dinámica y Línea Evolutiva de Bulbasaur en Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
+¡Bienvenido/a a este proyecto de Frontend! En esta aplicación web he desarrollado un sistema dinámico que permite navegar por la línea evolutiva de Bulbasaur utilizando el sistema de enrutamiento de **Angular**.
 
-## Development server
+El usuario puede interactuar con la aplicación para evolucionar al Pokémon mediante botones o haciendo clic directamente en la imagen, viendo reflejado el nivel de evolución en tiempo real en la propia URL.
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## ✨ Funcionalidades Principales
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+* 🏠 **Página de Inicio:** Introducción interactiva con la explicación del funcionamiento del sitio y accesos directos.
+* 🗺️ **Enrutamiento Dinámico:** Configuración de rutas específicas para `/bulbasaur`, `/ivysaur` y `/venusaur` mediante `routerLink` y `<router-outlet>`.
+* 📈 **Lógica de Evolución por Niveles:** El sistema respeta las reglas originales del videojuego:
+  * **Niveles 1–15:** Bulbasaur
+  * **Niveles 16–31:** Ivysaur
+  * **Niveles 32–100:** Venusaur
+* 🎮 **Interactividad:** Botones dinámicos de "Evolucionar" y "Retroceder" que aparecen o cambian según la etapa evolutiva actual del Pokémon.
+* ⚡ **Single Page Application (SPA):** La información y las imágenes se actualizan al instante sin recargar la página del navegador.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🖥️ Tecnologías Utilizadas
 
-```bash
-ng generate component component-name
-```
+* **Framework:** Angular (Gestión de componentes, lógica de negocio y TypeScript)
+* **Enrutamiento:** `RouterModule` (Directivas `routerLink` y navegación dinámica)
+* **Maquetación y Diseño:** HTML5 & Bootstrap (Diseño limpio y presentación visual)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 💡 Aprendizaje y Objetivos Técnicos
 
-## Building
+Este proyecto forma parte de mi aprendizaje en el módulo de **Desarrollo Web en Entorno Cliente (DWC)** dentro del ciclo de DAW. Me ha permitido reforzar conceptos clave como:
+1. La arquitectura basada en componentes de Angular.
+2. La gestión avanzada de rutas y paso de parámetros.
+3. El control de flujos de datos e interactividad en el Frontend.
 
-To build the project run:
+---
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+_Desarrollado con 💻 como parte del ciclo formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)._
