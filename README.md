@@ -4,7 +4,7 @@
 
 El usuario puede interactuar con la aplicación para evolucionar al Pokémon mediante botones o haciendo clic directamente en la imagen, viendo reflejado el nivel de evolución en tiempo real en la propia URL.
 
----
+![Vista de la aplicación](pokemon.png)
 
 ## ✨ Funcionalidades Principales
 
